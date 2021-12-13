@@ -1,0 +1,8 @@
+package org.patterns.creational.abstractfactory.factorymethod;
+
+public class JavaDeveloperFactory implements DeveloperFactory{
+    @Override
+    public Developer createDeveloper() {
+        return new JavaDeveloper();
+    }
+}
